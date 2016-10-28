@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  root 'static_pages#home'  # not this is root. localhost.3000
 
-  get 'static_pages/help'
+  get 'static_pages/help'   # localhost.3000/static_pages/help
   
   get 'static_pages/about'
 
